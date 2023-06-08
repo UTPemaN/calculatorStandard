@@ -1,0 +1,49 @@
+header{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:aliceblue;
+}
+body{
+    background: #6A9113;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+}
+
+#Calculator{
+    background-color: rgb(63, 63, 63);
+    border-radius: 4px;
+    border-color: black;
+    border-style:groove
+}
+
+#Calculator input[type="textfield"]{
+    width: 100%;
+    height: 25%;
+    cursor: default;
+    font-family: default;
+    background-color: rgb(21, 94, 21);
+    color:black;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    outline: none;
+}
+#Calculator input[type="button"], input[type="reset"]{
+    cursor: pointer;
+    width: 20%;
+    font-weight: bold;
+    margin: 2%;
+    border: 2;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    padding: 5%;
+    
+}
+
+#Calculator .operator{
+    background-color: orangered;
+    color:white;
+}  
+ 
